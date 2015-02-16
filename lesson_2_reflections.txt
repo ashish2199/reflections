@@ -5,3 +5,18 @@ we need to do it so  that git can keep track of changes made to the files in tha
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 staging area acts a temporary repository for the files so that we can make changes to repository in just one commit
 It offers us to logically separate the files in the repository
+
+How can you use the staging area to make sure you have one commit per logical change?
+by using the staging area effectively and commiting the work intelligently
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would help when we are experimenting with product and we at the same time want to also have a stable version of product so in that case we can create a new branch for the product we want to add.
+
+How do the diagrams help you visualize the branch structure?
+By drawing a tree with nodes as commit ids and each commit points to its parent we can only move up from a node so we can only view commits of a single branch at a time or else we need to switch to other branch to see its commits
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches combines the content of two branch into a single branch such that the merged branch has content of both the branch
+We represent it that way because a commit that is responsible for nmerging has information about the previous commits from both the bracnches
+
+This is my first commit to github :)
