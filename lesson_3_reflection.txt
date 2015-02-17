@@ -1,1 +1,5 @@
-lesson_3_reflection
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+So that we can control when changes should be made to the remote repository according to our needs.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+We can work offline without having to worry about what changes have been made so far and we can experiment on the program without affecting the github's version which is the public version.
