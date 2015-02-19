@@ -3,3 +3,9 @@ So that we can control when changes should be made to the remote repository acco
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 We can work offline without having to worry about what changes have been made so far and we can experiment on the program without affecting the github's version which is the public version.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We would make different copies of project and name them as per when they were created.It would be harder to do that manually also it wont allow us to merge and branch .
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+We use branch when we want to experiment new things, work on something without affecting the main master branch thus always having a stable working copy even while experimenting with the code.
